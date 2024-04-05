@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right , pink ,lightblue ,rgb(204, 155, 180)) !important;
+    /* background-color: rgb(202, 207, 205); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.container .btn{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+
+.container .btn:hover{
+    background-color: rgb(45, 43, 43);
+    color: white;
+}
+
+.container p{
+    
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 600;
+    color:red;
+}
